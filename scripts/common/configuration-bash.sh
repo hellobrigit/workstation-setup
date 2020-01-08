@@ -3,7 +3,6 @@ echo "Configuring bash with bash-it"
 brew install autojump
 brew install grc
 brew install coreutils
-brew install rbenv
 brew install watch
 cp files/dircolors.ansi-dark ~/.dircolors
 cp files/.inputrc ~/.inputrc
@@ -19,9 +18,7 @@ source ~/.bash_it/bash_it.sh
 bash-it enable completion git
 bash-it enable plugin autojump
 bash-it enable plugin ssh
-bash-it enable plugin rbenv
 bash-it enable completion ssh
-bash-it enable completion cf_cli
 
 echo
 echo "Configuring direnv with bash-it"
